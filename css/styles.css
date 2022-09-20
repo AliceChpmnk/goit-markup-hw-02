@@ -78,6 +78,7 @@ h2.hidden {
         font-family: inherit;
         font-size: 16px;
         text-align: center;
+        cursor: pointer;
 }
 
 .button.primary {
@@ -118,7 +119,6 @@ h2.hidden {
 
 /* Sections */
 .section-title {
-        font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
@@ -132,7 +132,6 @@ h2.hidden {
 
 /* Features section (list) */
 .features .title {
-        font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         text-transform: uppercase;
@@ -142,7 +141,7 @@ h2.hidden {
 
 .features .text {
         font-size: 14px;
-        line-height: 1.7;
+        line-height: 1.71;
 }
 
 /* Team section (list)*/
@@ -163,9 +162,8 @@ h2.hidden {
 
 /* Portfolio page: portfolio section */
 .portfolio .title {
-        font-weight: 700;
         font-size: 18px;
-        line-height: 36px;
+        line-height: 2;
         letter-spacing: 0.06em;
 
         color: var(--title-text-color);
@@ -173,7 +171,7 @@ h2.hidden {
 
 .portfolio .text {
         font-size: 16px;
-        line-height: 30px;
+        line-height: 1.88;
 
         color: var(--primary-text-color);
 }
@@ -184,19 +182,16 @@ h2.hidden {
 }
 
 .address .link {
-        color: var(--primary-bg);
-        font-style: normal;
         text-decoration: none;
-        font-weight: 400;
         font-size: 14px;
-        line-height: 24px;   
+        line-height: 1.71;   
+        font-style: normal;
+        color: var(--primary-bg);
 }
 
 .footer-contacts .link {
-        font-style: normal;
-        font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.71;
         text-decoration: none;
 
         color: rgba(255, 255, 255, 0.6);
