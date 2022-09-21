@@ -15,9 +15,6 @@
 
 body {
         font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: 0.03em;
 
         color: var(--primary-text-color);
         background-color: var(--primary-bg);
@@ -34,6 +31,7 @@ h2.hidden {
         font-size: 26px;
         line-height: 1.2;
         text-decoration: none;
+        letter-spacing: 0.03em;
 }
 
 .logo.header {
@@ -94,6 +92,7 @@ h2.hidden {
         background-color: var(--background-accent);
         font-weight: 500;
         line-height: 1.6; 
+        letter-spacing: 0.03em;
 }
 
 .button.secondary:hover {
@@ -122,7 +121,8 @@ h2.hidden {
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
-        
+        letter-spacing: 0.03em;
+
         color:var(--title-text-color);
 }
 
@@ -135,13 +135,15 @@ h2.hidden {
         font-size: 14px;
         line-height: 1.14;
         text-transform: uppercase;
-        
+        letter-spacing: 0.03em;
+
         color: var(--title-text-color);
 }
 
 .features .text {
         font-size: 14px;
         line-height: 1.71;
+        letter-spacing: 0.03em;
 }
 
 /* Team section (list)*/
@@ -150,6 +152,7 @@ h2.hidden {
         font-size: 16px;
         line-height: 1.19;        
         text-align: center;
+        letter-spacing: 0.03em;
 
         color: var(--title-text-color);
 }
@@ -158,6 +161,7 @@ h2.hidden {
         font-size: 16px;
         line-height: 1.19;
         text-align: center;
+        letter-spacing: 0.03em;
 }
 
 /* Portfolio page: portfolio section */
@@ -172,6 +176,7 @@ h2.hidden {
 .portfolio .text {
         font-size: 16px;
         line-height: 1.88;
+        letter-spacing: 0.03em;
 
         color: var(--primary-text-color);
 }
@@ -181,18 +186,21 @@ h2.hidden {
         background-color: var(--hero-background);
 }
 
-.address .link {
-        text-decoration: none;
-        font-size: 14px;
-        line-height: 1.71;   
-        font-style: normal;
-        color: var(--primary-bg);
-}
-
-.footer-contacts .link {
+.footer .link {
         font-size: 14px;
         line-height: 1.71;
         text-decoration: none;
+        letter-spacing: 0.03em;
 
         color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .address.link {
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 1.71;
+        font-style: normal;
+        letter-spacing: 0.03em;
+
+        color: var(--primary-bg);
 }
