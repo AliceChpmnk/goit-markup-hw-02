@@ -158,7 +158,6 @@ h2.hidden {
 }
 
 .team .text {
-        font-size: 16px;
         line-height: 1.19;
         text-align: center;
         letter-spacing: 0.03em;
@@ -174,7 +173,6 @@ h2.hidden {
 }
 
 .portfolio .text {
-        font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;
 
@@ -203,4 +201,8 @@ h2.hidden {
         letter-spacing: 0.03em;
 
         color: var(--primary-bg);
+}
+
+address {
+        font-style: normal;
 }
